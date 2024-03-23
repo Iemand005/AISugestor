@@ -1,5 +1,16 @@
 
 
 /* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. */
-body, html 
+body, html {
     margin: 0;
+}
+
+/* Header */
+nav {
+    padding: 10px;
+    background-color: green;
+}
+
+a {
+    margin: 10px;
+}
