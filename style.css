@@ -30,3 +30,22 @@ main {
 a:hover {
     background-color: rgba(100, 61, 61, 0.164);
 }
+
+/* bodyie */
+
+section {
+    background-color: rgba(233, 59, 59, 0.164);
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 10px;
+    /* width: 10px; */
+    width: 100%;
+}
+
+main > article  {
+    background-color: rgba(212, 212, 212, 0.041);
+    display: flex;
+    justify-content: stretch;
+}
