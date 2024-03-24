@@ -3,6 +3,10 @@
 /* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. */
 body, html {
     margin: 0;
+    font-family: Arial, sans-serif;
+     
+        padding: 0;
+        background-color: #f4f4f4;
 }
 
 /* Header */
@@ -17,4 +21,66 @@ a {
 
 main {
     padding: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  h2 {
+    color: #666;
+  }
+  p {
+    line-height: 1.6;
+    color: #666;
+  }
+
+
+/*footer Mohamed Bya*/
+
+.social{
+    display: flex;
+   flex-direction: column;
+   padding: 1rem;
+    bottom: 3rem ;
+}
+footer .soce{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: .5rem;
+    justify-content: space-between;
+}
+.social a{
+   display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    width: 31px;
+   height: 30.5px;
+   color:#071a3e;
+    border:0.15rem solid var(--navhover-color);
+    border-radius: 50%;
+    font-size: 25px;    
+    transition: .5s;
+}
+#fb:hover{
+    color:#0165E1;
+}
+#insta:hover{
+    color:#E4405F;
+}
+#twit:hover{
+    color: #1DA1F2;
+}
+#inter:hover{
+    color: #e30046;
+}
+.social p{
+margin: 2px auto;
 }
