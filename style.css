@@ -19,6 +19,12 @@ header {
     justify-content: stretch;
     font-size: 20px;
 }
+header img {
+    height: 50px;
+    margin: 5px 20px ;
+
+}
+
 
 nav {
     padding: 0px;
@@ -58,10 +64,6 @@ nav > a:last-child> img {
 
 }
 
-header img {
-    height: 50px;
-    margin: 5px 10px;
-}
 
 main {
     padding: 10px;
