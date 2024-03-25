@@ -51,20 +51,20 @@ main {
 
 /*footer Mohamed Bya*/
 
-.social{
+.social {
     display: flex;
    flex-direction: column;
    padding: 1rem;
     bottom: 3rem ;
 }
-footer .soce{
+footer .soce {
     display: flex;
     align-items: center;
     margin: auto;
     gap: .5rem;
     justify-content: space-between;
 }
-.social a{
+.social a {
    display: flex;
     justify-content: center;
     text-decoration: none;
@@ -77,10 +77,10 @@ footer .soce{
     font-size: 25px;    
     transition: .5s;
 }
-#fb:hover{
+#fb:hover {
     color:#0165E1;
 }
-#insta:hover{
+#insta:hover {
     color:#E4405F;
 }
 #twit:hover{
@@ -90,8 +90,8 @@ footer .soce{
     color: #e30046;
 }
 .social p{
-margin: 2px auto;}
-=======
+    margin: 2px auto;
+}
 
 a:hover {
     background-color: rgba(100, 61, 61, 0.164);
@@ -114,5 +114,4 @@ main > article  {
     background-color: rgba(212, 212, 212, 0.041);
     display: flex;
     justify-content: stretch;
->>>>>>> 1600efd36a9a3c97d0e694f31cd4a43fe1cdcb98
 }
