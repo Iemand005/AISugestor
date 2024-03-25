@@ -3,7 +3,7 @@
 /* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. Ik heb bet nu al zelf gedaan danku. */
 body, html {
     margin: 0;
-    font-family: Arial, sans-serif;
+    
      
         padding: 0;
                             
@@ -17,16 +17,18 @@ body, html {
     transition: all 500ms ease-in-out;
 }
 
-/* Hoofden */
+/* My head. */
 
+header a {
+    text-decoration: none
+}
 header {
-    background-color    : rgba( 236,236, 236, 0.45) ;
     
     display: flex
     ; justify-content: stretch;
     font-size: 20px;}header img {
     height: 50px;
-    margin: 5px 20px ;
+    margin: auto 20px ;
 
 } nav {
     padding: 0px;
@@ -148,7 +150,7 @@ nav >i {
   }
 
 
-/*foot Mohamed Bye*/
+/*foot Moohamed Bye*/
 
 .social {
    padding: 1rem;
@@ -168,25 +170,13 @@ footer .soce {
      align-items: center;
     width: 31px;
    height: 30.5px;
-   color:#071a3e;
-    border:0.15rem solid darkblue;
+
      border-radius: 50%;
      font-size: 25px;    
     transition: .5s;
     margin: 0 .25rem;
 }
-#fb:hover {
-    color:#0165E1;
-}
-#insta:hover {
-    color:#E4405F;
-}
-#twit:hover{
-    color: #1DA1F2;
-}
-#inter:hover{
-    color: #e30046;/*sdit de uccl cleur?*/
-}
+
 
 
 
@@ -197,7 +187,7 @@ footer .soce {
 }
 
 section     > article {
-    background-color:                white;
+    
      display: flex;
       margin: 10px;
       border-radius: 5px;
@@ -227,7 +217,7 @@ footer{
     display: flex;
     flex-direction: row;
 }               footer a{
-/*put the footer a stye her*/
+/*put the footer a stye her, do yo like her*/
 }
 
 
@@ -258,7 +248,9 @@ footer > p {
 /**/
 
 
+bodu{
 
+}
 
 
 /* contact page********/
@@ -268,6 +260,9 @@ footer > p {
     padding-bottom: 7rem;
     display: flex;
     align-content: center;
+}
+body{
+    filter: blur(1px);
 }
 .contact h2{
     color: red;
@@ -328,14 +323,39 @@ form .btn .subtn:hover{
     color: red;
 }
 
+/* F onts */
+body, a{
+font-family: Arial, sans-serif;
+}
 
 /*colors*/
+
+header {
+    background-color    : rgba( 236,236, 236, 0.45) ;
+    -webkit-nbsp-mode: none;
+    background-attachment: fixed;
+    background-color: rgba(255, 242, 134, 0.45);
+}
 
 main article{
     background-color: rgba(212, 212, 212, 0.041);
 }
 
-body, a:hover                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+section > article {
+    background-color:                white;
+}
+
+body, a:hover, nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+
+
+
+
+
+
+
+
+background-color: #feffdf;
+/* background-color: ##fefffedefsesfdfdefdedfefdefdefddffffefe;                                                                                                                                                                                                                                                                                                                                            } */}
 
 
 
@@ -345,6 +365,32 @@ body, a:hover                                                                   
 
 
 
-background-color: #fffefe;                                                                                                                                                                                                                                                                                                                                            }
 
+h1 {
+   color: #333;
+}
+ h2 {
+   color: black;
+ }/*Do you ahve prettifier?*/
+ p, p, p, h3, a {
+   color: #666
+ }
+
+.social a{
+    color:#071a3e;
+    border:0.15rem solid darkblue;
+}
+
+#fb:hover {
+    color:#0165E1;
+}
+#insta:hover {
+    color:#E4405F;
+}
+#twit:hover{
+    color: #1DA1F2;
+}
+#inter:hover{
+    color: #e30046;/*sdit de uccl cleur?*/
+}
 
