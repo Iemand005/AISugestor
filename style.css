@@ -110,7 +110,7 @@ footer .soce {
     margin: 2px auto;
 }
 
-nav > i:hover, nav > a:hover {
+nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
     background-color: rgba(100, 61, 61, 0.164);
 }
 
