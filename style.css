@@ -60,6 +60,9 @@ main {
   h2 {
     color: black;
   }
+  h3 {
+    color: #666
+  }
   p {
     line-height: 1.6;
     color: #666;
