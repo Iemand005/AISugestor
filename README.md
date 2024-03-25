@@ -8,3 +8,7 @@ https://x.com/heyabhishekk/status/1766099119737917883?s=46&t=Oil4pXYW5vHlyaQCT0k
 - Gemini
 - DALL-E 3
 - LLAMA
+
+# to add
+
+Bruh add some stuff like maybe add and make the checkboxes, email thing and form and also we need proper AI list like whas this du

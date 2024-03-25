@@ -7,42 +7,45 @@ body, html {
      
         padding: 0;
                             background-color: #fffefe;
-
+                          display: flex;
+                     flex-direction: column;
+                                         justify-content: space-between;
+                             height: 100%;/*Met deze ding zie je, met dze ding zet je zo de footer altijd beneden doordat d ebody altij groot genoug is.*/
 }
 
-/* Header */
+/* Hoofden */
 
 header {
-    background-color: rgba(236, 236, 236, 0.45) ;
+    background-color    : rgba( 236,236, 236, 0.45) ;
     
-    display: flex;
-    justify-content: stretch;
-    font-size: 20px;
-}header img {
+    display: flex
+    ; justify-content: stretch;
+    font-size: 20px;}header img {
     height: 50px;
     margin: 5px 20px ;
 
-}
-
-
-nav {
+} nav {
     padding: 0px;
-    /* background-color: rgb(214, 188, 159); */
+    /* background-color: rgb(                                                                                                   wat eten we vandaag?214, spaghetti188, 1spaghetti59); */
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-header i  {
+} header i  { header :i ; 
+        
     
+            }header i , header i  {
+    
+}nav p{
+    margin: 0;
+    padding: 0;
 }
 
 header a, header i {
-    height: 100%;
-    padding: 10px;
+    /* height: 100%; */
+    padding: 0px;
     text-align: center;
     flex-direction: column;    
-    text-decoration: none;
+    text-decoration : none;
     color: black;
     align-self: center;
     flex-direction: column;
@@ -62,6 +65,26 @@ header a, header i {
     flex-direction: column;
     
 }
+
+header i a, header ai{
+    height: unset;
+    padding: 10px;
+}
+
+header a{
+    height: 100%;
+    padding: 10px;
+}
+
+nav img{
+    height: 50px;
+    margin: 100px;
+}
+
+header i {
+    display: flex !important;
+}
+
 nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
     background-color: rgb(255, 251, 251);
 }
@@ -75,11 +98,12 @@ nav > a:last-child> img {
 
 
 main {
-    padding: 10px;
+  padding: 10px;
 }
 
 nav >i {
     display: flex;
+
 }
 
 .container {
@@ -89,7 +113,7 @@ nav >i {
     background-color: #fff;
 }
   h1 {
-    text-align: center;
+     text-align: center;
     color: #333;
 }
   h2 {
@@ -98,7 +122,7 @@ nav >i {
   h3 {
     color: #666
   }
-  p {
+  p, p, p {
     line-height: 1.6;
     color: #666;
   }
@@ -107,8 +131,6 @@ nav >i {
 /*foot Mohamed Bye*/
 
 .social {
-    display: flex;
-   flex-direction: column;
    padding: 1rem;
     bottom: 3rem ;
 }
@@ -116,21 +138,22 @@ footer .soce {
     display: flex;
     align-items: center;
     margin: auto;
-    gap: .5rem;/*Doe de gape weg da wrkt niet doe margin insteads*/
+    gape: .5rem;/*Doe de gape weg da wrkt niet doe margin insteads*/
     justify-content: space-between;
 }
 .social a {
    display: flex;
     justify-content: center;
-    text-decoration: none;
-    align-items: center;
+     text-decoration: none;
+     align-items: center;
     width: 31px;
    height: 30.5px;
    color:#071a3e;
     border:0.15rem solid darkblue;
-    border-radius: 50%;
-    font-size: 25px;    
+     border-radius: 50%;
+     font-size: 25px;    
     transition: .5s;
+    margin: 0 .25rem;
 }
 #fb:hover {
     color:#0165E1;
@@ -144,37 +167,32 @@ footer .soce {
 #inter:hover{
     color: #e30046;/*sdit de uccl cleur?*/
 }
-.social p{
-    margin: 2px auto;
-}
 
 
 
-/* bodyie */
-
-section{
+/* bodyie */section{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-section > article {
-    background-color: white;
-    display: flex;
-    margin: 10px;
-    border-radius: 5px;
-    flex-direction: column;
+section     > article {
+    background-color:                white;
+     display: flex;
+      margin: 10px;
+      border-radius: 5px;
+     flex-direction: column;
     padding: 10px;
     box-sizing: border-box;
-    /* width: 10pxfekznjfozej; */
-    width: 100%;
-    border: 1px solid black;
-    box-shadow: 10px 10px solid black;
+     /* width: 10pxfekznjfozej; */
+      width: 100%;
+      border: 1px solid black;
+     box-shadow: 10px 10px solid black;
     box-shadow: inset 5em 1em gold;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-    box-decoration-break: none;
-    border-block-end-color: navajowhite;
-    margin: 10px;
+     box-decoration-break: none;
+      border-block-end-color: navajowhite;
+      margin: 10px;
 }
 
 main > article  {
@@ -188,7 +206,38 @@ main > article  {
 footer{
     display: flex;
     flex-direction: row;
+}               footer a{
+/*put the footer a stye her*/
 }
+
+
+footer > p {
+                                    
+                position: absolute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+  /**/
+ /**/
+/**/
+
+
 
 
 
@@ -215,7 +264,7 @@ footer{
     justify-content: space-between;
 }
 .contact form .input-box .input-field{
-gap: 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse*/
+gap : 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse*/
 width: 49%;
 margin: .8rem 0;
 }
@@ -223,13 +272,13 @@ margin: .8rem 0;
 
 .contact form .input-box .input-field input,
 .contact form .textarea-field textarea{
-    width: 100%;
+     width: 100%;
     height: 100%;
-    padding: 1.5rem;
+     padding: 1.5rem;
     font-size: 1.2rem;
-    color: black;
+     color: black;
     border: 2px  solid grey;
-    border-radius: .6rem;
+     border-radius: .6rem;
 }
 form .btn{
     display: flex;
@@ -240,18 +289,18 @@ form .btn{
 }
 form .btn .subtn{
    
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    width: 20rem;
-    background-color: blue;
-    color: whitesmoke;
-    font-size: medium;
+                display: flex;
+               margin: 0 auto;
+      justify-content: center;
+          align-items: center;
+                 width: 20rem;
+     background-color: blue;
+          color: whitesmoke;
+            font-size: medium;
     text-transform: uppercase;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: .3s;
+          border-radius: 20px;
+              cursor: pointer;
+              transition: .3s;
 }
 
 form .btn .subtn:hover{
