@@ -45,16 +45,7 @@ header a, header i {
 
     align-content: center;
     display: flex;
-    flex-direction: row;
     flex-direction: column;
-    flex-direction: column;
-    flex-direction: column;
-    flex-direction: column;
-    flex-direction: column;
-    flex-direction: column;
-    flex-direction: column;
-    flex-direction: column;
-
 }
 nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
     background-color: rgb(255, 251, 251);
