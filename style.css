@@ -46,6 +46,12 @@ header a, header i {
 nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
     background-color: rgb(255, 251, 251);
 }
+nav > a:last-child> img {
+    size: 10px;
+    background-color: #e30046;
+    
+
+}
 
 header img {
     height: 50px;
