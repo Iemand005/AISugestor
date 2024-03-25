@@ -155,6 +155,7 @@ section {
     border: 1px solid red;
     box-shadow: 10px 10px solid black;
     box-shadow: inset 5em 1em gold;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
 
 main > article  {
