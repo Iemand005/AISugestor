@@ -58,7 +58,10 @@ main {
     color: #333;
   }
   h2 {
-    color: #666;
+    color: black;
+  }
+  h3 {
+    color: #666
   }
   p {
     line-height: 1.6;
