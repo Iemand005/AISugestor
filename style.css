@@ -30,6 +30,9 @@ a, i {
     text-align: center;
     text-decoration: none;
     color: black;
+    align-self: center;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 main {
@@ -99,7 +102,7 @@ footer .soce {
     margin: 2px auto;
 }
 
-a:hover, i:hover {
+nav > i:hover, nav > a:hover {
     background-color: rgba(100, 61, 61, 0.164);
 }
 
