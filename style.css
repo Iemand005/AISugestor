@@ -153,3 +153,10 @@ main > article  {
     display: flex;
     justify-content: stretch;
 }
+
+/* My feet */
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
