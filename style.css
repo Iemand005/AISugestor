@@ -150,9 +150,9 @@ section {
     border-radius: 5px;
     flex-direction: column;
     padding: 10px;
-    /* width: 10px; */
+    /* width: 10pxfekznjfozej; */
     width: 100%;
-    border: 10px inset color;
+    border: 10px solid red;
 }
 
 main > article  {
