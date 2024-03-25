@@ -15,17 +15,19 @@ body, html {
 header {
     background-color: rgb(94, 97, 253);
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
+    font-size: 20px;
 }
 
 nav {
     padding: 0px;
     /* background-color: rgb(214, 188, 159); */
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
+    width: 100%;
 }
 
-a, i {
+header a, header i {
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -33,6 +35,12 @@ a, i {
     align-self: center;
     height: 100%;
     box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+
+    align-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 main {
@@ -106,14 +114,15 @@ nav > i:hover, nav > a:hover {
     background-color: rgba(100, 61, 61, 0.164);
 }
 
-nav > img {
+header img {
     height: 50px;
+    margin: 5px 10px;
 }
 
 /* bodyie */
 
 section {
-    background-color: rgba(233, 59, 59, 0.164);
+    background-color: white;
     display: flex;
     margin: 10px;
     border-radius: 5px;
