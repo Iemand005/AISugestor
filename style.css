@@ -3,15 +3,11 @@
 /* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. */
 body, html {
     margin: 0;
-<<<<<<< HEAD
     font-family: Arial, sans-serif;
      
         padding: 0;
         background-color: #f4f4f4;
-=======
-    transition: all 1s;
-    background-color: beige;
->>>>>>> 1600efd36a9a3c97d0e694f31cd4a43fe1cdcb98
+
 }
 
 /* Header */
