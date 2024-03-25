@@ -1,12 +1,12 @@
 
 
-/* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. */
+/* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. Ik heb bet nu al zelf gedaan danku. */
 body, html {
     margin: 0;
     font-family: Arial, sans-serif;
      
         padding: 0;
-        background-color: #fffefe;
+                            background-color: #fffefe;
 
 }
 
@@ -18,8 +18,7 @@ header {
     display: flex;
     justify-content: stretch;
     font-size: 20px;
-}
-header img {
+}header img {
     height: 50px;
     margin: 5px 20px ;
 
@@ -34,16 +33,20 @@ nav {
     width: 100%;
 }
 
-header i {
-    height: 100%;
+header i  {
+    
 }
 
 header a, header i {
+    height: 100%;
     padding: 10px;
     text-align: center;
+    flex-direction: column;    
     text-decoration: none;
     color: black;
     align-self: center;
+    flex-direction: column;
+    
     
     box-sizing: border-box;
     text-align: center;
@@ -52,6 +55,12 @@ header a, header i {
     align-content: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
     background-color: rgb(255, 251, 251);
@@ -78,14 +87,14 @@ nav >i {
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
-  }
+}
   h1 {
     text-align: center;
     color: #333;
-  }
+}
   h2 {
     color: black;
-  }
+  }/*Do you ahve prettifier?*/
   h3 {
     color: #666
   }
@@ -95,7 +104,7 @@ nav >i {
   }
 
 
-/*footer Mohamed Bya*/
+/*foot Mohamed Bye*/
 
 .social {
     display: flex;
@@ -107,7 +116,7 @@ footer .soce {
     display: flex;
     align-items: center;
     margin: auto;
-    gap: .5rem;
+    gap: .5rem;/*Doe de gape weg da wrkt niet doe margin insteads*/
     justify-content: space-between;
 }
 .social a {
@@ -133,7 +142,7 @@ footer .soce {
     color: #1DA1F2;
 }
 #inter:hover{
-    color: #e30046;
+    color: #e30046;/*sdit de uccl cleur?*/
 }
 .social p{
     margin: 2px auto;
@@ -143,19 +152,29 @@ footer .soce {
 
 /* bodyie */
 
-section {
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section > article {
     background-color: white;
     display: flex;
     margin: 10px;
     border-radius: 5px;
     flex-direction: column;
     padding: 10px;
+    box-sizing: border-box;
     /* width: 10pxfekznjfozej; */
     width: 100%;
     border: 1px solid black;
     box-shadow: 10px 10px solid black;
     box-shadow: inset 5em 1em gold;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    box-decoration-break: none;
+    border-block-end-color: navajowhite;
+    margin: 10px;
 }
 
 main > article  {
@@ -173,8 +192,8 @@ footer{
 
 
 
-/* contact page*/
-
+/* contact page********/
+/*You can pur this one in sdifferent file maybe because why you place contact below footer? make clean and miniml*/
 .contact{
     min-height: auto;
     padding-bottom: 7rem;
@@ -196,7 +215,7 @@ footer{
     justify-content: space-between;
 }
 .contact form .input-box .input-field{
-gap: 10px;
+gap: 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse*/
 width: 49%;
 margin: .8rem 0;
 }
