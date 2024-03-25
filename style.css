@@ -1,38 +1,114 @@
 
 
-/* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. */
+/* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. Ik heb bet nu al zelf gedaan danku. */
 body, html {
     margin: 0;
-    transition: all 1s;
-    background-color: beige;
+    
+     
+        padding: 0;
+                            
+                          display: flex;
+                     flex-direction: column;
+                                         justify-content: space-between;
+                             height: 100%;/*Met deze ding zie je, met dze ding zet je zo de footer altijd beneden doordat d ebody altij groot genoug is.*/
 }
 
-/* Header */
-nav {
+*{
+    transition: all 500ms ease-in-out;
+}
+
+/* My head. */
+
+header a {
+    text-decoration: none
+}
+header {
+    
+    display: flex
+    ; justify-content: stretch;
+    font-size: 20px;}header img {
+    height: 50px;
+    margin: auto 20px ;
+
+} nav {
     padding: 0px;
-    background-color: rgb(214, 188, 159);
+    /* background-color: rgb(                                                                                                   wat eten we vandaag?214, spaghetti188, 1spaghetti59); */
     display: flex;
-    justify-content: stretch;
-}
-
-a {
-    padding: 10px;
+    justify-content: center;
     width: 100%;
-    text-align: center;
-    text-decoration: none;
-    color: black;
+} header i  { header :i ; 
+        
+    
+            }header i , header i  {
+    
+}nav p{
+    margin: 0;
+    padding: 0;
 }
 
-main {
+header a, header i {
+    text-align: center;
+    flex-direction: column;    
+    text-decoration : none;
+    
+    align-self: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header i a, header ai{
+    height: unset;
     padding: 10px;
 }
 
-a:hover {
-    background-color: rgba(100, 61, 61, 0.164);
+header a{
+    height: 100%;
+    padding: 10px;
 }
 
-/* bodyie */
+nav img{
+    height: 50px;
+    margin: 100px;
+}
 
+header i {
+    display: flex !important;
+}
+
+<<<<<<< HEAD
 section {
     display: flex;
     margin: 10px;
@@ -52,3 +128,291 @@ section > article  {
     padding: 10px;
     border-radius: 10px;
 }
+=======
+nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
+    background-color: rgb(255, 251, 251);
+}
+nav > a:last-child> img {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+main {
+  padding: 10px;
+}
+
+nav >i {
+    display: flex;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  h1 {
+     text-align: center;
+    color: #333;
+}
+  h2 {
+    color: black;
+  }/*Do you ahve prettifier?*/
+  h3 {
+    color: #666
+  }
+  p, p, p {
+    line-height: 1.6;
+    color: #666;
+  }
+
+
+/*foot Moohamed Bye*/
+
+.social {
+   padding: 1rem;
+    bottom: 3rem ;
+}
+footer .soce {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gape: .5rem;/*Doe de gape weg da wrkt niet doe margin insteads*/
+    justify-content: space-between;
+}
+.social a {
+   display: flex;
+    justify-content: center;
+     text-decoration: none;
+     align-items: center;
+    width: 31px;
+   height: 30.5px;
+
+     border-radius: 50%;
+     font-size: 25px;    
+    transition: .5s;
+    margin: 0 .25rem;
+}
+
+
+
+
+/* bodyie */section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section     > article {
+    
+     display: flex;
+      margin: 10px;
+      border-radius: 5px;
+     flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+     /* width: 10pxfekznjfozej; */
+      width: 100%;
+      border: 1px solid black;
+     box-shadow: 10px 10px solid black;
+    box-shadow: inset 5em 1em gold;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+     box-decoration-break: none;
+      border-block-end-color: navajowhite;
+      margin: 10px;
+}
+
+main > article  {
+    
+    display: flex;
+    justify-content: stretch;
+}
+
+/* My feet */
+
+footer{
+    display: flex;
+    flex-direction: row;
+}               footer a{
+/*put the footer a stye her, do yo like her*/
+}
+
+
+footer > p {
+                                    
+                position: absolute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+  /**/
+ /**/
+/**/
+
+
+bodu{
+
+}
+
+
+/* contact page********/
+/*You can pur this one in sdifferent file maybe because why you place contact below footer? make clean and miniml*/
+.contact{
+    min-height: auto;
+    padding-bottom: 7rem;
+    display: flex;
+    align-content: center;
+}
+body{
+    filter: blur(1px);
+}
+.contact h2{
+    color: red;
+    font-size: 30px;
+}
+.contact form{
+    max-width: 90rem;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+/* }
+.contact form .input-box .input-field{
+margin : 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse
+width: 49%;
+margin: .8rem 0;
+} */
+
+
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea{
+     width: 100%;
+    height: 100%;
+     padding: 1.5rem;
+    font-size: 1.2rem;
+     color: black;
+    border: 2px  solid grey;
+     border-radius: .6rem;
+}
+form .btn{
+    display: flex;
+    width: 10rem;
+    height: 60px;
+    margin: 20px auto;
+    padding: 10px;
+}
+form .btn .subtn{
+   
+                display: flex;
+               margin: 0 auto;
+      justify-content: center;
+          align-items: center;
+                 width: 20rem;
+     background-color: blue;
+          color: whitesmoke;
+            font-size: medium;
+    text-transform: uppercase;
+          border-radius: 20px;
+              cursor: pointer;
+              transition: .3s;
+}
+
+form .btn .subtn:hover{
+    color: red;
+}
+
+/* F onts */
+body, a{
+font-family: Arial, sans-serif;
+}
+
+/*colors*/
+
+header {
+    background-color    : rgba( 236,236, 236, 0.45) ;
+    -webkit-nbsp-mode: none;
+    background-attachment: fixed;
+    background-color: rgba(255, 242, 134, 0.45);
+}
+
+main article{
+    background-color: rgba(212, 212, 212, 0.041);
+}
+
+section > article {
+    background-color:                white;
+}
+
+body, a:hover, nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+
+
+
+
+
+
+
+
+background-color: #feffdf;
+/* background-color: ##fefffedefsesfdfdefdedfefdefdefddffffefe;                                                                                                                                                                                                                                                                                                                                            } */}
+
+
+
+
+
+
+
+
+
+
+h1 {
+   color: #333;
+}
+ h2 {
+   color: black;
+ }/*Do you ahve prettifier?*/
+ p, p, p, h3, a {
+   color: #666
+ }
+
+.social a{
+    color:#071a3e;
+    border:0.15rem solid darkblue;
+}
+
+#fb:hover {
+    color:#0165E1;
+}
+#insta:hover {
+    color:#E4405F;
+}
+#twit:hover{
+    color: #1DA1F2;
+}
+#inter:hover{
+    color: #e30046;/*sdit de uccl cleur?*/
+}
+
+>>>>>>> f77e85a53240a9cdcb1b3fe98384ef9bd2578308
