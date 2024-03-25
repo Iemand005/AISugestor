@@ -6,11 +6,15 @@ body, html {
     font-family: Arial, sans-serif;
      
         padding: 0;
-                            background-color: #fffefe;
+                            
                           display: flex;
                      flex-direction: column;
                                          justify-content: space-between;
                              height: 100%;/*Met deze ding zie je, met dze ding zet je zo de footer altijd beneden doordat d ebody altij groot genoug is.*/
+}
+
+*{
+    transition: all 500ms ease-in-out;
 }
 
 /* Hoofden */
@@ -41,16 +45,12 @@ header {
 }
 
 header a, header i {
-    /* height: 100%; */
-    padding: 0px;
     text-align: center;
     flex-direction: column;    
     text-decoration : none;
-    color: black;
+    
     align-self: center;
     flex-direction: column;
-    
-    
     box-sizing: border-box;
     text-align: center;
     vertical-align: middle;
@@ -63,7 +63,28 @@ header a, header i {
     vertical-align: middle;
     justify-content: center;
     flex-direction: column;
-    
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 header i a, header ai{
@@ -110,7 +131,6 @@ nav >i {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
 }
   h1 {
      text-align: center;
@@ -196,7 +216,7 @@ section     > article {
 }
 
 main > article  {
-    background-color: rgba(212, 212, 212, 0.041);
+    
     display: flex;
     justify-content: stretch;
 }
@@ -263,11 +283,12 @@ footer > p {
     display: flex;
     justify-content: space-between;
 }
+/* }
 .contact form .input-box .input-field{
-gap : 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse*/
+margin : 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse
 width: 49%;
 margin: .8rem 0;
-}
+} */
 
 
 .contact form .input-box .input-field input,
@@ -306,3 +327,24 @@ form .btn .subtn{
 form .btn .subtn:hover{
     color: red;
 }
+
+
+/*colors*/
+
+main article{
+    background-color: rgba(212, 212, 212, 0.041);
+}
+
+body, a:hover                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+
+
+
+
+
+
+
+
+
+background-color: #fffefe;                                                                                                                                                                                                                                                                                                                                            }
+
+
