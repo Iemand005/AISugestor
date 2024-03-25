@@ -34,7 +34,6 @@ header a, header i {
     text-decoration: none;
     color: black;
     align-self: center;
-    height: 100%;
     box-sizing: border-box;
     text-align: center;
     vertical-align: middle;
@@ -152,4 +151,11 @@ main > article  {
     background-color: rgba(212, 212, 212, 0.041);
     display: flex;
     justify-content: stretch;
+}
+
+/* My feet */
+
+footer{
+    display: flex;
+    flex-direction: row;
 }
