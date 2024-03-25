@@ -34,6 +34,7 @@ header a, header i {
     text-decoration: none;
     color: black;
     align-self: center;
+    
     box-sizing: border-box;
     text-align: center;
     vertical-align: middle;
@@ -46,9 +47,10 @@ nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
     background-color: rgb(255, 251, 251);
 }
 nav > a:last-child> img {
-    size: 10px;
-    background-color: #e30046;
-    
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
 
 }
 
