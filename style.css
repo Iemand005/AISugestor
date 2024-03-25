@@ -3,25 +3,37 @@
 /* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. */
 body, html {
     margin: 0;
+<<<<<<< HEAD
     font-family: Arial, sans-serif;
      
         padding: 0;
         background-color: #f4f4f4;
+=======
+    transition: all 1s;
+    background-color: beige;
+>>>>>>> 1600efd36a9a3c97d0e694f31cd4a43fe1cdcb98
 }
 
 /* Header */
 nav {
-    padding: 10px;
-    background-color: green;
+    padding: 0px;
+    background-color: rgb(214, 188, 159);
+    display: flex;
+    justify-content: stretch;
 }
 
 a {
-    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 main {
     padding: 10px;
 }
+<<<<<<< HEAD
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -64,7 +76,7 @@ footer .soce{
     width: 31px;
    height: 30.5px;
    color:#071a3e;
-    border:0.15rem solid var(--navhover-color);
+    border:0.15rem solid darkblue;
     border-radius: 50%;
     font-size: 25px;    
     transition: .5s;
@@ -82,5 +94,29 @@ footer .soce{
     color: #e30046;
 }
 .social p{
-margin: 2px auto;
+margin: 2px auto;}
+=======
+
+a:hover {
+    background-color: rgba(100, 61, 61, 0.164);
+}
+
+/* bodyie */
+
+section {
+    background-color: rgba(233, 59, 59, 0.164);
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 10px;
+    /* width: 10px; */
+    width: 100%;
+}
+
+main > article  {
+    background-color: rgba(212, 212, 212, 0.041);
+    display: flex;
+    justify-content: stretch;
+>>>>>>> 1600efd36a9a3c97d0e694f31cd4a43fe1cdcb98
 }
