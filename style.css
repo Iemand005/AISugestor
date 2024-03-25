@@ -108,7 +108,6 @@ header i {
     display: flex !important;
 }
 
-<<<<<<< HEAD
 section {
     display: flex;
     margin: 10px;
@@ -128,7 +127,6 @@ section > article  {
     padding: 10px;
     border-radius: 10px;
 }
-=======
 nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected {
     background-color: rgb(255, 251, 251);
 }
@@ -415,4 +413,3 @@ h1 {
     color: #e30046;/*sdit de uccl cleur?*/
 }
 
->>>>>>> f77e85a53240a9cdcb1b3fe98384ef9bd2578308
