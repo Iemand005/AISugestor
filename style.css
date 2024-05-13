@@ -192,7 +192,7 @@ footer .soce {
     width: 100%;
 }
 
-section     > article {
+section     > article , .e, input, textarea, button {
     
      display: flex;
       margin: 10px;
@@ -201,7 +201,7 @@ section     > article {
     padding: 10px;
     box-sizing: border-box;
      /* width: 10pxfekznjfozej; */
-      width: 100%;
+      /* width: 100%; */
       border: 1px solid black;
      box-shadow: 10px 10px solid black;
     box-shadow: inset 5em 1em gold;
@@ -209,6 +209,13 @@ section     > article {
      box-decoration-break: none;
       /* border-block-end-color: navajowhite; */
       margin: 10px;
+}
+
+figure{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin : 10px;
 }
 
 input[type="checkbox"]{display:none}
