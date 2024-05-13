@@ -14,9 +14,20 @@ body, html {
 
 *{
     transition: all 500ms ease-in-out;
+    /* pointer-events: none; */
 }
 
 /* My head. */
+
+.e{
+    padding: 50px;
+    margin: 3cm;
+    box-shadow: #333;
+    background-color:rgb(205, 197, 146);
+    color: #f8f4f4;
+    border-radius: 10px;
+    background-color: rgb(205 197 146 / 19%);
+}
 
 header a {
     text-decoration: none
@@ -42,6 +53,8 @@ header {
     
 }nav p{
     margin: 0;
+    display: flex;
+    flex-direction: column;
     padding: 0;
 }
 
@@ -74,8 +87,8 @@ nav img{
 }
 
 nav img:hover{
-    height: 500px;
-    margin: 100px;
+    /* height: 500px;
+    margin: 100px; */
 }
 
 header i {
@@ -194,9 +207,11 @@ section     > article {
     box-shadow: inset 5em 1em gold;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
      box-decoration-break: none;
-      border-block-end-color: navajowhite;
+      /* border-block-end-color: navajowhite; */
       margin: 10px;
 }
+
+input[type="checkbox"]{display:none}
 
 main > article  {
     
@@ -394,6 +409,10 @@ body, a{
 font-family: Arial, sans-serif;
 }
 
+body {
+    height: 100%;
+}
+
 /*colors*/
 
 header {
@@ -401,6 +420,7 @@ header {
     -webkit-nbsp-mode: none;
     background-attachment: fixed;
     background-color: rgba(0, 221, 255, 0.45);
+    background-color: rgb(66 255 0 / 45%);
 }
 
 main article{
@@ -421,6 +441,7 @@ body, a:hover, nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected 
 
 
 background-color: #fdfdfd;
+
 /* background-color: ##fefffedefsesfdfdefdedfefdefdefddffffefe;                                                                                                                                                                                                                                                                                                                                            } */}
 
 
