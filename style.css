@@ -235,10 +235,68 @@ footer > p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
   /**/
  /**/
-/**/
+/**/  /**/
+                                                                                                                                                                                            /**/
+                                                                                                                                                                                            /**/  /**/
+                                                                                                                                                                                            /**/
+                                                                                                                                                                                            /**/  /**/
+                                                                                                                                                                                            /**/
+                                                                                                                                                                                            /**/  /**/
+                                                                                                                                                                                            /**/
+                                                                                                                                                                                            /**/  /**/
+                                                                                                                                                                                            /**/
+                                                                                                                                                                                            /**/
 
 
 bodu{
@@ -256,22 +314,31 @@ bodu{
 }
 
 .contact h2{
-    color: red;
+    color: BlAcK ;
     font-size: 30px;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .contact form{
     max-width: 90rem;
     margin: 0 auto;
     text-align: center;
-  
+  display: flex                        ;
+  flex-direction: column                                                                ;
 }
 .contact form .input-box{
     display: flex;
     justify-content: space-between;
 }
 
-.contact > form > input {
-
+.contact > form > input, .contact textarea, .contact button {
+    border: 1px solid black;
+    margin: 2px 0;
 }
 /* }
 .contact form .input-box .input-field{
