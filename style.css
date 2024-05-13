@@ -340,6 +340,10 @@ bodu{
     border: 1px solid black;
     margin: 2px 0;
 }
+
+article img {
+ width: 100%;
+}
 /* }
 .contact form .input-box .input-field{
 margin : 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse
