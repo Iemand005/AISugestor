@@ -69,6 +69,11 @@ header a{
 }
 
 nav img{
+    height: 30px;
+    margin: 0;
+}
+
+nav img:hover{
     height: 500px;
     margin: 100px;
 }
