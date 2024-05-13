@@ -3,14 +3,13 @@
 /* AUB Mijn gekrulde haakjes toets is kapot dus iemand anders moet dat aanvullen, danku. Ik heb bet nu al zelf gedaan danku. */
 body, html {
     margin: 0;
-    
-     
-        padding: 0;
-                            
-                          display: flex;
-                     flex-direction: column;
-                                         justify-content: space-between;
-                             height: 100%;/*Met deze ding zie je, met dze ding zet je zo de footer altijd beneden doordat d ebody altij groot genoug is.*/
+    padding: 0;                   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #f0f0f0;
+    /*Met deze ding zie je, met dze ding zet je zo de footer altijd beneden doordat d ebody altij groot genoug is.*/
 }
 
 *{
@@ -294,9 +293,7 @@ bodu{
     display: flex;
     align-content: center;
 }
-body{
-    filter: blur(1px);
-}
+
 .contact h2{
     color: red;
     font-size: 30px;
@@ -367,7 +364,7 @@ header {
     background-color    : rgba( 236,236, 236, 0.45) ;
     -webkit-nbsp-mode: none;
     background-attachment: fixed;
-    background-color: rgba(255, 242, 134, 0.45);
+    background-color: rgba(0, 221, 255, 0.45);
 }
 
 main article{
@@ -387,7 +384,7 @@ body, a:hover, nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected 
 
 
 
-background-color: #feffdf;
+background-color: #fdfdfd;
 /* background-color: ##fefffedefsesfdfdefdedfefdefdefddffffefe;                                                                                                                                                                                                                                                                                                                                            } */}
 
 
