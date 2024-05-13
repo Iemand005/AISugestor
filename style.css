@@ -46,60 +46,16 @@ header {
 }
 
 header a, header i {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
     text-align: center;
-    flex-direction: column;    
-    text-decoration : none;
     
+    vertical-align: middle;
+    justify-content: center;
+    
+    text-decoration: none;
     align-self: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    text-align: center;
-    vertical-align: middle;
-
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    display: flex;
-    vertical-align: middle;
-    justify-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    text-align: center;
-    vertical-align: middle;
-
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
-    text-align: center;
-    vertical-align: middle;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    display: flex;
-    vertical-align: middle;
-    justify-content: center;
-    flex-direction: column;
-    vertical-align: middle;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    display: block;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    text-align: center;
 }
 
 header i a, header ai{
