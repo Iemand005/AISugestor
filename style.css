@@ -13,11 +13,10 @@ body, html {
 }
 
 *{
-    transition: all 500ms ease-in-out;
-    /* pointer-events: none; */
+    transition: all 200ms ease-in-out;
+    
 }
 
-/* My head. */
 
 .e{
     padding: 50px;
@@ -148,7 +147,7 @@ nav >i {
 }
   h2 {
     color: black;
-  }/*Do you ahve prettifier?*/
+  }
   h3 {
     color: #666
   }
@@ -156,10 +155,6 @@ nav >i {
     line-height: 1.6;
     color: #666;
   }
-
-
-/*foot Moohamed Bye*/
-
 .social {
    padding: 1rem;
     bottom: 3rem ;
@@ -202,8 +197,6 @@ section     > article , .e, input, textarea, button {
      flex-direction: column;
     padding: 10px;
     box-sizing: border-box;
-     /* width: 10pxfekznjfozej; */
-      /* width: 100%; */
       border: 1px solid black;
      box-shadow: 10px 10px solid black;
     box-shadow: inset 5em 1em gold;
@@ -230,108 +223,13 @@ main > article  {
     justify-content: stretch;
 }
 
-/* My feet */
-
 footer{
     display: flex;
     flex-direction: row;
-}               footer a{
-/*put the footer a stye her, do yo like her*/
-}
-
-
+} 
 footer > p {
-                                    
-                position: absolute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+position: absolute;
 }
-  /**/
- /**/
-/**/  /**/
-                                                                                                                                                                                            /**/
-                                                                                                                                                                                            /**/  /**/
-                                                                                                                                                                                            /**/
-                                                                                                                                                                                            /**/  /**/
-                                                                                                                                                                                            /**/
-                                                                                                                                                                                            /**/  /**/
-                                                                                                                                                                                            /**/
-                                                                                                                                                                                            /**/  /**/
-                                                                                                                                                                                            /**/
-                                                                                                                                                                                            /**/
-
-
-bodu{
-
-}
-
-
-/* contact page********/
-/*You can pur this one in sdifferent file maybe because why you place contact below footer? make clean and miniml*/
 .contact{
     min-height: auto;
     padding-bottom: 7rem;
@@ -370,13 +268,6 @@ bodu{
 article img {
  width: 100%;
 }
-/* }
-.contact form .input-box .input-field{
-margin : 10px;/*Halloe wie deed diz die gap wekrt nie deftig da is slecht, doe margin instead of borde rmet border collam.pse
-width: 49%;
-margin: .8rem 0;
-} */
-
 
 .contact form .input-box .input-field input,
 .contact form .textarea-field textarea{
@@ -397,18 +288,18 @@ form .btn{
 }
 form .btn .subtn{
    
-                display: flex;
-               margin: 0 auto;
-      justify-content: center;
-          align-items: center;
-                 width: 20rem;
-     background-color: blue;
-          color: whitesmoke;
-            font-size: medium;
-    text-transform: uppercase;
-          border-radius: 20px;
-              cursor: pointer;
-              transition: .3s;
+display: flex;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+width: 20rem;
+background-color: blue;
+color: whitesmoke;
+font-size: medium;
+text-transform: uppercase;
+border-radius: 20px;
+cursor: pointer;
+transition: .3s;
 }
 
 form .btn .subtn:hover{
@@ -439,37 +330,15 @@ main article{
 }
 
 section > article {
-    background-color:                white;
+background-color:white;
 }
-
-body, a:hover, nav > i:hover, nav > a:hover, nav > a.selected, nav > i.selected                                                                                                                                                                                                                                                                                                                                                                                                                                        {
-
-
-
-
-
-
-
-
-background-color: #fdfdfd;
-
-/* background-color: ##fefffedefsesfdfdefdedfefdefdefddffffefe;                                                                                                                                                                                                                                                                                                                                            } */}
-
-
-
-
-
-
-
-
-
 
 h1 {
    color: #333;
 }
  h2 {
    color: black;
- }/*Do you ahve prettifier?*/
+ }
  p, p, p, h3, a {
    color: #666
  }
@@ -489,6 +358,6 @@ h1 {
     color: #1DA1F2;
 }
 #inter:hover{
-    color: #e30046;/*sdit de uccl cleur?*/
+    color: #e30046;
 }
 
